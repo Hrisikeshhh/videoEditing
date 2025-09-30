@@ -1,0 +1,980 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap'); 
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    margin-top: -2%;
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid white;
+    z-index: 999;
+    border-radius: 50%;
+}
+
+ .upNav{
+    height: 8vh;
+    display: flex;
+    background-image: url(portfolioPics/hero.jpg);
+    background-size: cover;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ }
+
+ .leftNav{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 170%;
+     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+ }
+
+ .rightNav{
+   display: flex;
+    width: 60%;
+    align-items: center;
+ }
+
+ .navItems{
+    display: flex;
+    width: 70%;
+    list-style: none;
+}
+
+ .items{
+    width: 20%;
+    font-size: 105%;
+     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+ }
+
+ .items a{
+      color: white;
+      text-decoration: none;
+ }
+
+ .items a:hover{
+     color: rgb(175, 127, 221);
+     text-decoration: underline 2px solid rgb(175, 127, 221) ;
+     transition: 0.4s ease;
+ }
+
+ .downNav{
+    height: 5vh;
+    width: 50%;
+    display: flex;
+   align-items: center;
+   margin: auto;
+   margin: 0% 50%;
+   justify-content: space-evenly;
+   font-size: 144%;
+   background-color: transparent;
+   color: white;
+   position: sticky;
+   top: 8vh;
+ }
+
+ .blue{
+   color:rgb(90, 233, 212) ;
+ }
+
+ .hero{
+    width: 100%;
+    height: 90vh;
+    margin-top: -3%;
+    background-image: url(portfolioPics/hero.jpg);
+    background-size: cover;
+    display: flow-root;
+ }
+
+ .heroIn{
+    height: 76%;
+    width: 81%;
+    margin: auto;
+    margin-top: 14%;
+    display: flex;
+ }
+
+ .hero-left{
+    width: 60%;
+    height: 85%;
+ }
+
+.hero-right{
+    height: 85%;
+    width: 40%;
+    background-image: url(portfolioPics/editor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.herop1{
+    margin: 5%;
+    width: 69%;
+    font-size: 294%;
+    z-index: 999;
+     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+    position: absolute;
+    color: white;
+}
+
+.herop2{
+   margin: 11% 5%;
+    font-size: 163%;
+    z-index: 999;
+     font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+    position: absolute;
+    color: white;
+    width: 35%;
+}
+
+.levender{
+    color: rgb(175, 127, 221);
+}
+
+.typeJs{
+    color: white;
+    margin-top: 45%;
+    margin-left: 11%;
+}
+
+                                     /* firstSec */
+
+.firstSec{
+   height: 70vh;
+   background-color: rgb(25 3 46);
+   color: white;
+   display: flow-root;
+   font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+}
+
+.aboutMeBox {
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    margin-top: 6%;
+    border-radius: 20px;
+}
+
+.aboutMeH1-1 {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 266%;
+}
+
+.aboutMeH2-2{   
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+
+.aboutPara{
+  margin-left: 2%;
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+.tools{
+    margin-top: 2%;
+    height: 19%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.applications{
+
+  height: 90%;
+  width: 6%;
+  border-radius: 14px;
+} 
+
+.a{
+    background-image: url(portfolioPics/pr.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.b{
+     background-image: url(portfolioPics/afterEffect.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.c{
+  background-image: url(portfolioPics/daVincipic.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.a:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+  box-shadow: 4px 6px 16px ;
+ 
+}
+
+.b:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+  box-shadow: 4px 6px 16px ;
+}
+
+.c:hover{
+  transform: translateY(-10px);
+  transition: 0.3s ease;
+  box-shadow: 4px 6px 16px ;
+}
+                                    /* secondSec */
+.secondSec{
+      height: 90vh;
+      background-color: rgb(25 3 46);
+      display: flow-root;
+}
+
+.weOffer{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 8%;
+    height: 82%;
+}
+
+.serviceLeft{
+  width: 30%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serviceP1{
+   font-size: 140%;
+    color: white;
+    text-align: center;
+    display: inline;
+    width: 65%;
+    border-bottom: 2px solid rgb(90, 233, 212);
+}
+
+.serviceh1{
+  font-size: 220%;
+  color: white;
+  width: 65%;;
+  display: inline;
+  text-align: center;
+  border-bottom: 2px solid rgb(90, 233, 212);
+}
+
+.serviceRight{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 31.5%);
+    grid-gap: 25px;
+    grid-auto-rows: 48%;
+   
+    width: 100%;
+   
+}
+
+.serviceCard{
+   cursor: pointer;
+}
+
+.serviceCard:hover{
+   background-color:#1a3535b3;
+   transition: 0.3s ease;
+   border-radius: 14px;
+}
+
+.serviceIcons{
+    width: 40%;
+    font-size: 350%;
+    height: 35%;
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     color: rgb(175, 127, 221);
+}
+
+.serviceDetails {
+    width: 90%;
+    height: 45%;
+    margin: auto;
+    color: white;
+}
+
+.serviceDetails p{
+   font-size: 85%;
+   font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+    margin-top: 2%;
+}
+
+.serviceCard h1{
+  font-size: 119%;
+  margin-top: 0;
+  font-family:'poppins','inter','Roboto','Montserrat','Open Sans';
+}
+
+.seviceContact{
+   margin-top: 4%;
+}
+
+
+                                   /* thirdSec */
+.thirdSec{
+    height: 100vh;
+    background-color: rgb(25 3 46);
+    color: white;
+     display: flow-root;
+}
+
+.myCreations{
+    text-align: center;
+    font-size: 250%;
+    margin-top: 5%;
+}
+
+#PortfolioButton{
+    font-size: 247%;
+   margin-left: 88%;
+   cursor: pointer;
+   margin-top: 2%;
+}
+
+#PortfolioButton:hover{
+   color:rgb(175, 127, 221) ;   
+}
+
+.outerPortfolio{
+    margin-top: 2%;
+    height: 61%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+
+.infoPortfolio{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoSec{
+ width: 40%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.infoPortfolioDetail{
+    font-size: 130%;
+    width: 85%;
+}
+
+.vid{
+    width: 100%;
+    height: 54%;
+}
+
+#ikigai{
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
+
+                                    /* fourth Sec */
+.fourthSec{
+    height: 90vh;
+     background-color: rgb(25 3 46);
+     color: white;
+}
+
+.pakagesH1{
+    font-size: 367%;
+    text-align: center;
+}
+
+.pakagesp1{
+    font-size: 223%;
+    text-align: center;
+}
+
+.pakageWrapper{
+   width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-gap: 8%;
+    grid-auto-rows: 80%;
+}
+
+
+.pakage{
+  border: 1px solid  rgb(175, 127, 221);
+  border-radius: 14px;
+  text-align: center;
+}
+
+.pakageIcon{
+    font-size: 229%;
+    margin: 5%;
+}
+
+#pakageHead{
+    font-size: 215%;
+}
+
+.pakageDetail{
+   font-size: 114%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.pakageBtn{
+    width: 28%;
+    margin-top: 2%;
+    padding: 1%;
+    font-size: 168%;
+    color: white;
+    border-radius: 6px;
+     cursor: pointer;
+    background: linear-gradient(135deg, #ff6a00, #ffcc00);
+}
+
+.innerPakage{
+    height: 75%;
+}
+
+
+                                    /* fifth section */
+                                    /* why choose me */
+
+.fifthSec{
+   height: 82vh;
+   background-color: rgb(25 3 46);
+   color: white;
+}
+
+.fifthSecP1{
+   margin-left: 4%;  
+}
+
+.fifthSecH1-1{
+  margin-left: 4%;
+  margin-top: 2%;
+  font-size: 190%;
+}
+
+.fifthSecP2{
+  margin-left: 4%;
+}
+
+.fifthSecP-1
+{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 203%;
+}
+
+.chooseMEOuter{
+    height: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.chooseMeBox{
+    width: 27%;
+    height: 73%;
+    cursor: pointer;
+    background: rgba(255,255,255,0.05);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+
+.chooseMeBox:hover{
+    transform: translateY(-25px);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.icon {
+  background: #1e3a8a;
+  color: #38bdf8;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+
+}
+
+.sixSec{
+    height: 70vh;
+    background-color:rgb(25 3 46);
+    height: 83vh;
+    display: flow-root;
+}
+
+.faq{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+}
+
+details{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    align-content: center;
+    padding: 1%;
+    cursor: pointer;
+}
+
+details[open]{
+    background-color:rgb(25 3 46) ;
+}
+
+details p{
+    margin-top: 2%;
+    color: wheat;
+}
+
+
+.FAQ{
+    text-align: center;
+    font-size: 411%;
+    color: wheat;
+    margin: 1% 1%;
+}
+                                    /* footer */
+footer{
+    display: flex;
+    height: 90px;
+    color: white;
+    background-color: rgb(25 3 46);
+}
+
+.leftFooter{
+   width: 35%;
+}
+
+.midFooter{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.myPicFooter{
+ outline: 1px solid white;
+ width: 21%;
+ height: 98%;
+ border-radius: 50%;
+ margin-bottom: 7%;
+ background-image: url(myPics/me4.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+.footerLi a:hover{
+  color: rgb(175, 127, 221);
+  transition: 0.4S ease;
+}
+
+.rightFooter{
+   width: 35%;
+   color: white;
+}
+
+.footerTop{
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.footerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.footerItems{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 118%;
+    list-style: none;
+}
+
+.footerItems li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.copyright{
+    font-size: 100%;
+}   
+
+#close{
+
+display: none;
+
+}
+
+#menu{
+ 
+display: none;
+
+}
+
+
+@media(max-width:800px) {
+
+    #close{
+
+     display: inline-block;
+     font-size: 239%;
+    margin-left: -73%;
+    }
+
+    #menu{
+    
+     display: inline-block;
+      font-size: 308%;
+
+    }
+
+    .upNav{
+   
+    z-index: 1000;
+    margin-top: -4%;
+   }
+
+    .navItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right:100%;
+        width: 100%;
+        height: 47%;
+        border-radius: 28px;
+        background-color: #080829;
+        z-index: 2;
+    }
+
+   .rightNav {
+    justify-content: end;
+    }
+
+
+
+    .hero{
+     margin-top: -11%;
+    }
+
+    .heroIn {
+    height: 75%;
+    width: 81%;
+    margin: auto;
+    margin-top: 40%;
+    display: flex;
+    color: wheat;
+}
+
+.hero-right {
+    height: 45%;
+    width: 247%;
+}
+
+.herop1 {
+    margin: 37% 1%;
+    width: 69%;
+    height: 28%;
+    font-size: 163%;
+}
+
+.herop2 {
+    margin: 61% 1%;
+    font-size: 163%;
+    width: 75%;
+    color: wheat;
+}
+
+.typeJs {
+    color: white;
+    width: 40%;
+    z-index: 999;
+    position: absolute;
+    margin-top: 99%;
+    margin-left: 36%;
+    font-size: 96%;
+}
+
+
+.firstSec{
+    height: 81vh;
+}
+
+.tools {
+    margin-top: 19%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.applications {
+    height: 97%;
+    width: 16%;
+}
+
+.aboutMeH1-1 {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.aboutMeH2-2 {
+    margin-left: 2%;
+    margin-top: 1%;
+    font-size: 148%;
+}
+
+.aboutPara {
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 95%;
+}
+
+.aboutMeBox {
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    height: 90%;
+    margin-top: 6%;
+    font-size: 120%;
+    border-radius: 20px;
+}
+
+
+
+               /* secondSec */
+    .secondSec{
+      height: 233vh;
+    }
+
+.serviceLeft {
+    height: 4%;
+    width: 93%;
+}
+
+    .serviceRight {
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-gap: 25px;
+    grid-auto-rows: 60%;
+    width: 100%;
+}
+
+.serviceDetails {
+    width: 90%;
+    height: 45%;
+    margin: auto;
+    color: white;
+    font-size: 130%;
+}
+
+   .weOffer {
+    width: 85%;
+    margin-top: 17%;
+    height: 95%;
+    flex-direction: column;
+}
+
+.serviceCard h1 {
+    font-size: 135%;
+    margin-top: 0;
+    font-family: 'poppins', 'inter', 'Roboto', 'Montserrat', 'Open Sans';
+}
+
+.serviceDetails p {
+    font-size: 80%;
+    font-family: 'poppins', 'inter', 'Roboto', 'Montserrat', 'Open Sans';
+    margin-top: 2%;
+}
+
+
+    /* third sec */
+
+
+    .myCreations {
+    margin-top: 21%;
+   }
+
+
+   .outerPortfolio {
+    margin-top: 20%;
+    flex-direction: column;
+}
+
+ .infoPortfolio {
+    width: 100%;
+}
+
+  .infoPortfolioDetail {
+    font-size: 130%;
+    width: 105%;
+}
+
+ .videoSec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+                                                     /* fourth Sec */
+.fourthSec {
+    height: 208vh;
+    display: flow-root;
+}
+
+.pakagesH1 {
+    margin-top: 19%;
+    font-size: 198%;
+}
+
+.pakagesp1 {
+    font-size: 144%;
+    text-align: center;
+}
+
+.pakageWrapper {
+    grid-template-columns: repeat(1, 100%);
+    grid-auto-rows: 32%;
+}
+
+                          /* fifth Sec */
+
+
+ .fifthSec {
+    height: 194vh;
+    background-color: rgb(25 3 46);
+    color: white;
+    display: flow-root;
+}
+
+.fifthSecP1 {
+    margin-left: 4%;
+    margin-top: 3%;
+    font-size: 126%;
+}
+
+.fifthSecP-1 {
+    font-size: 160%;
+}
+
+.chooseMEOuter {
+    height: 85%;
+    flex-direction: column;
+}
+
+.chooseMeBox {
+    width: 80%;
+    height: 25%;
+    flex-direction: column;
+}
+
+                                     /* SixSec */
+
+.sixSec {
+    height: 70vh;
+    background-color: rgb(25 3 46);
+    display: flow-root;
+}
+
+
+
+.faq {
+    height: 62%;
+    margin-top: 12%;
+}
+
+.FAQ{
+        text-align: center;
+        font-size: 257%;
+        color: wheat;
+        
+    }
+
+
+details {
+    padding: 3%;
+}
+ 
+                    /* footer */
+
+    footer {
+    display: flex;
+    height: 99px;
+    color: white;
+    flex-direction: column;
+    font-size: 83%;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.leftFooter {
+    width: 100%;
+    height: 65%;
+}
+
+.midFooter {
+    display: none;
+}
+
+.rightFooter {
+    width: 100%;
+    color: white;
+}
+
+}

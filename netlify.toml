@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"   # or whatever your build command is
+  publish = "dist"            # folder where your built files go
+  base = "/"                  # root directory of your project
+
+# Set the production branch
+[context.production]
+  branch = "main"
+
+# Optional: set a different branch for staging/development
+[context.dev]
+  branch = "dev"
