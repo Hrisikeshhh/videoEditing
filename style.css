@@ -790,7 +790,7 @@ display: none;
     margin: auto;
     height: 90%;
     margin-top: 6%;
-    font-size: 120%;
+    font-size: 95%;
     border-radius: 20px;
 }
 
@@ -820,7 +820,7 @@ display: none;
     height: 45%;
     margin: auto;
     color: white;
-    font-size: 130%;
+    font-size: 100%;
 }
 
    .weOffer {
@@ -828,6 +828,11 @@ display: none;
     margin-top: 17%;
     height: 95%;
     flex-direction: column;
+}
+
+.serviceCard{
+   background-color:#1a3535b3;
+   border-radius: 18px;
 }
 
 .serviceCard h1 {
@@ -858,6 +863,7 @@ display: none;
 
  .infoPortfolio {
     width: 100%;
+    font-size: 88%;
 }
 
   .infoPortfolioDetail {
@@ -977,4 +983,66 @@ details {
     color: white;
 }
 
+}
+
+@media(min-width:360px ) and (max-width:395px)
+{
+
+   .upNav {
+        z-index: 1000;
+        margin-top: -4%;
+        font-size: 80%;
+    }
+
+        .heroIn {
+        font-size: 78%;
+    }
+
+    .firstSec {
+        height: 100vh;
+    }
+
+    .aboutMeBox {
+        border: 1px solid white;
+        width: 80%;
+        margin: auto;
+        height: 80%;
+        margin-top: 24%;
+        font-size: 74%;
+        border-radius: 20px;
+    }
+
+    .secondSec {
+        height: 254vh;
+    }
+
+    .weOffer {
+        font-size: 80%;
+    }
+
+        .serviceRight {
+        height: 24%;
+        margin-top: 13%;
+    }
+
+    .myCreations {
+        margin-top: 44%;
+        font-size: 158%;
+    }
+
+    .outerPortfolio {
+        font-size: 72%;
+    }
+
+    .pakage {
+    height: 115%;
+}
+
+  .fifthSecH1-1 {
+    font-size: 140%;
+}
+
+.fifthSecP-1 {
+        font-size: 126%;
+    }
 }
